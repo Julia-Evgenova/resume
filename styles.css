@@ -84,17 +84,17 @@ text-decoration: none ;
 
 .blue{
  background: #AFEEEE;
- box-shadow: 6px 6px 10px rgba(22, 178, 181, 0.639);
+ box-shadow: 6px 6px 10px rgba(1, 108, 109, 0.358);
 }
 
 .red {
   background: #FFB6C1;
-  box-shadow: 6px 6px 10px rgba(224, 13, 52, 0.639);
+  box-shadow: 6px 6px 10px rgba(94, 0, 17, 0.386);
 }
 
 .yellow {
   background: #fff1c2;
-  box-shadow: 6px 6px 10px rgba(235, 190, 9, 0.68);
+  box-shadow: 6px 6px 10px rgba(97, 78, 0, 0.317);
 }
 
 .btn {
