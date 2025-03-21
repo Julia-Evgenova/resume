@@ -1,2 +1,2 @@
 # Моё резюме
-Результат вы можете посмотреть тут: [моя первая работа на HTML и CSS](https://julia-evgenova.github.io/resume/)
+Результат вы можете посмотреть тут: [CV](https://julia-evgenova.github.io/resume/)

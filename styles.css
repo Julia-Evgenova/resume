@@ -1,196 +1,94 @@
-@font-face {
-  font-family: 'Roboto Regular';
-  src: url('Roboto-Regular.eot');
-  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-  url('Roboto-Regular.woff') format('woff'),
-  url('Roboto-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-  body {
-    font-family: 'Roboto Regular', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: #0f145e;
-    background: #e4eeef;
-  }
-
-
-  a {
-color: black;
-text-decoration: none ;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  a:active {
-    color: blueviolet;
-  }
-
-  a:visited {
-    color: crimson;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7fafd;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
 
 .container {
-  min-width: 750px;
+  max-width: 800px;
   margin: auto;
-  padding-top: 25px;
+  background: #fff;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .avatar {
-  width: 200px;
-  border-radius: 25px;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, .3);
+  width: 150px;
+  height: 180px;
+  border-radius: 20%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-  .info {
- margin-bottom: 20px;
-  }
-
-  .info-text {
-    margin-left: 35px;
-  }
-
-  .info-text p {
-    font-style: italic;
-    font-weight: bold;
-    color: #2f3f54;
-    margin: 0;
-  }
-
-.info-text h4 {
-  margin-bottom: 10px;
+.contact-info h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
 }
 
-@media (max-width: 650px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
+.contact-info p {
+  margin: 4px 0;
 }
 
-.card {
-  border-radius: 20px;
-  padding: 15px 20px;
-  margin-bottom: 20px;
+.contact-info a {
+  color: #3498db;
+  text-decoration: none;
 }
 
-.card h2 {
-  margin-bottom: 10px;
+.section {
+  margin-bottom: 25px;
 }
 
-.blue{
- background: #AFEEEE;
- box-shadow: 6px 6px 10px rgba(1, 108, 109, 0.358);
-}
-
-.red {
-  background: #FFB6C1;
-  box-shadow: 6px 6px 10px rgba(94, 0, 17, 0.386);
-}
-
-.yellow {
-  background: #fff1c2;
-  box-shadow: 6px 6px 10px rgba(97, 78, 0, 0.317);
-}
-
-.btn {
-  background: #111;
-  padding: 15px 20px;
-  color: #fff;
-  border: none;
-  font-family: inherit;
-  cursor: pointer;
-}
-
-.btn:hover {
-  opacity: 0.8;
-}
-
-.list {
-
-  padding: 0 20px;
-}
-
-.list li {
- color: #86898f; 
- margin-bottom: 10px;
-}
-
-.link-list {
-  list-style: none;
-padding: 0;
-}
-
-.link-list li {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+.section h2 {
+  border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #2c3e50;
 }
 
-.table {
-  width: 100%;
+.skills {
+  list-style: square inside;
+  padding-left: 10px;
 }
 
-.table td {
-  padding-bottom: 10px;
+.skills li {
+  margin-bottom: 6px;
 }
 
-.table td:nth-child(2), 
-.table td:nth-child(3) {
-  color: #86898f;
+.education-item {
+  margin-bottom: 15px;
 }
 
-.form h2 {
-  text-align: center;
+.education-item span {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
 }
 
-.form-row {
-margin-bottom: 10px;
-display: flex;
+.education-item h4 {
+  margin: 0;
+  font-weight: 500;
 }
 
-.form-row .form-group {
-margin-right: 20px;
-width: 50%;
-}
-
-.form-row .form-group:last-child {
-  margin-right: 0;
-}
-
-@media (max-width: 650px) {
-  .info {
-    display: block;
+@media(max-width:600px){
+  .header{
+    flex-direction: column;
     text-align: center;
   }
+  .avatar{
+    margin-bottom: 10px;
+  }
 }
-
-.form-row .form-group {
-  width: 100%;
-  margin-right: 0;
-  margin-bottom: 10px;
-}
-
-.form-group label{
-display: block;
-font-size: 14px;
-color: #86898f;
-}
-
-.form-group input, 
-.form-group text-area {
-  width: 100%;
-  box-sizing: border-box;
-  border: none;
-  background: transparent;
-  border-bottom: 1px solid #ccc;
-  color: #000;
-  padding: 15px 0 10px;
-  outline: none;
-  font-family: inherit;
-}
-
