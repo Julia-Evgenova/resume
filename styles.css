@@ -113,3 +113,13 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.contact-info ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.contact-info li {
+  margin: 4px 0;
+}
