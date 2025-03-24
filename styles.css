@@ -34,6 +34,10 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.highlight {
+  color: #3498db;
+}
+
 .contact-info h1 {
   margin: 0 0 10px;
   font-size: 30px;
@@ -76,6 +80,11 @@ body {
 
 .skills li {
   margin-bottom: 6px;
+}
+
+.section ul li {
+  margin-bottom: 12px;
+  line-height: 1.5;
 }
 
 .education-item,
